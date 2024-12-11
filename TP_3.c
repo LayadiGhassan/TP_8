@@ -62,7 +62,7 @@ void viderListe(element **L) {
 }
 
 int main() {
-    int Tab[10] = {1, 3, 5, 7, 8, 10, 9, 11, 13, 20};
+    int Tab[10] = {5, 10, 3, 5 8, 75, 63, 17, 13, 14};
     element *liste = creerListe();
 
     liste = chargerListe(Tab, 10, liste);
