@@ -30,8 +30,8 @@ void afficherListe(element *L) {
 }
 
 element* supprimerEnFin(element *L) {
-    if (L == NULL) return NULL; // إذا كانت القائمة فارغة
-    if (L->suivant == NULL) { // إذا كان هناك عنصر واحد فقط
+    if (L == NULL) return NULL;
+    if (L->suivant == NULL) { 
         free(L);
         return NULL;
     }
