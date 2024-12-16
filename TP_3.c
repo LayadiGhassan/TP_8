@@ -6,7 +6,7 @@ typedef struct element {
     struct element *suivant;
 } element;
 
-element* creerListe(int v) {
+element* creerListe() {
     return NULL;
 }
 
